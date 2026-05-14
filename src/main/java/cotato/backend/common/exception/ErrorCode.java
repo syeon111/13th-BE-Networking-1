@@ -21,6 +21,9 @@ public enum ErrorCode {
 	APPLICATION_NOT_FOUND(HttpStatus.NOT_FOUND, "지원 서류를 찾을 수 없습니다.", "APPLICATION-001"),
 	INVALID_FILTER_TYPE(HttpStatus.BAD_REQUEST, "유효하지 않은 필터 타입입니다.", "APPLICATION-002"),
 
+	// Staff
+	STAFF_NOT_FOUND(HttpStatus.NOT_FOUND, "운영진을 찾을 수 없습니다.", "STAFF-001"),
+
 	//500
 	INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "서버 내부에서 에러가 발생하였습니다.", "COMMON-004"),
 	;
