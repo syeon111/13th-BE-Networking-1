@@ -24,6 +24,10 @@ public enum ErrorCode {
 	// Staff
 	STAFF_NOT_FOUND(HttpStatus.NOT_FOUND, "운영진을 찾을 수 없습니다.", "STAFF-001"),
 
+	// Like
+	ALREADY_LIKED(HttpStatus.BAD_REQUEST, "이미 좋아요를 누른 서류입니다.", "LIKE-001"),
+	NOT_LIKED(HttpStatus.BAD_REQUEST, "좋아요를 누르지 않은 서류입니다.", "LIKE-002"),
+
 	//500
 	INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "서버 내부에서 에러가 발생하였습니다.", "COMMON-004"),
 	;
