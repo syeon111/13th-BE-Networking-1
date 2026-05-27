@@ -14,6 +14,20 @@ public enum ErrorCode {
 	INVALID_PARAMETER(HttpStatus.BAD_REQUEST, "요청 파라미터가 잘못되었습니다.", "COMMON-002"),
 	NOT_FOUND(HttpStatus.NOT_FOUND, "찾을 수 없습니다.", "COMMON-003"),
 
+	// Applicant
+	APPLICANT_NOT_FOUND(HttpStatus.NOT_FOUND, "지원자를 찾을 수 없습니다.", "APPLICANT-001"),
+
+	// Application
+	APPLICATION_NOT_FOUND(HttpStatus.NOT_FOUND, "지원 서류를 찾을 수 없습니다.", "APPLICATION-001"),
+	INVALID_FILTER_TYPE(HttpStatus.BAD_REQUEST, "유효하지 않은 필터 타입입니다.", "APPLICATION-002"),
+
+	// Staff
+	STAFF_NOT_FOUND(HttpStatus.NOT_FOUND, "운영진을 찾을 수 없습니다.", "STAFF-001"),
+
+	// Like
+	ALREADY_LIKED(HttpStatus.BAD_REQUEST, "이미 좋아요를 누른 서류입니다.", "LIKE-001"),
+	NOT_LIKED(HttpStatus.BAD_REQUEST, "좋아요를 누르지 않은 서류입니다.", "LIKE-002"),
+
 	//500
 	INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "서버 내부에서 에러가 발생하였습니다.", "COMMON-004"),
 	;
