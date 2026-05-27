@@ -48,7 +48,7 @@ https://3.34.186.220.nip.io/swagger-ui/index.html
 
 ## 4. GitHub Actions 성공 화면 캡처
 
-<img width="1469" height="804" alt="GitHub Actions Success" src="https://github.com/user-attachments/assets/593e439c-3e91-4e0b-b4a4-e1a0fbf717d8" />
+<img width="1466" height="807" alt="GitHub Actions Success" src="https://github.com/user-attachments/assets/ba97a2c2-13ae-48ef-95d8-e6070df107d1" />
 
 ## 5. Dockerfile / Nginx 설정 내용
 
