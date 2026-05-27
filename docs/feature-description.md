@@ -5,7 +5,7 @@
 ```
 사용자 (Browser)
       ↓ HTTPS
-3.38.149.57.nip.io
+3.34.186.220.nip.io
       ↓
   Nginx (port 443/80)
   - HTTP → HTTPS 리다이렉트
@@ -33,22 +33,22 @@ EC2 SSH 접속
 ## 2. 배포 URL
 
 ```
-https://3.38.149.57.nip.io
+https://3.34.186.220.nip.io
 ```
 
 Swagger 접속 URL:
 
 ```
-https://3.38.149.57.nip.io/swagger-ui/index.html
+https://3.34.186.220.nip.io/swagger-ui/index.html
 ```
 
 ## 3. 배포된 Swagger 접속 화면 캡처
 
-> 캡처 첨부 예정
+<img width="1470" height="810" alt="Swagger UI" src="https://github.com/user-attachments/assets/52f9a31f-f920-4038-85b0-b0766004fa03" />
 
 ## 4. GitHub Actions 성공 화면 캡처
 
-> 캡처 첨부 예정
+<img width="1469" height="804" alt="GitHub Actions Success" src="https://github.com/user-attachments/assets/593e439c-3e91-4e0b-b4a4-e1a0fbf717d8" />
 
 ## 5. Dockerfile / Nginx 설정 내용
 
@@ -65,7 +65,7 @@ https://3.38.149.57.nip.io/swagger-ui/index.html
 ```nginx
 server {
     listen 80;
-    server_name 3.38.149.57.nip.io;
+    server_name 3.34.186.220.nip.io;
 
     location / {
         proxy_pass http://127.0.0.1:8080;
