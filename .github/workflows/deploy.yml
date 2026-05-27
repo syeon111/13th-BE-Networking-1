@@ -47,5 +47,5 @@ jobs:
             EOF
 
             # 최신 이미지 pull 후 앱 컨테이너만 교체 (DB는 유지)
-            docker compose pull app
-            docker compose up -d --no-deps app
+            docker-compose pull app
+            docker-compose up -d --no-deps app
